@@ -98,7 +98,7 @@ class AncientNeckless extends Neckless implements AncientNeckless_{
 
     @Override
 //    Increase damage
-//    @return damage can increase from atk 1 to 3 times
+//    @return damage can increase from atk 1 to 3 times.
     public int attackIncrease() {
         return 15*criticalHit();
     }

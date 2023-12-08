@@ -146,7 +146,7 @@ class Warrior extends Knight implements Warriorr{
     @Override
     //    Select target to do damage
 //    effects: decrease hp of target but damage increase 2 times of atk
-//    @param Character target select only 1 target to do damage to target
+//    @param Character target select only 1 target to do damage to target.
     public void quickSlash(Character target) {
         target.hp = this.atk*2 - target.def;
     }
